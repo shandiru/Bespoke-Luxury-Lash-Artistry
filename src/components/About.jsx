@@ -62,7 +62,7 @@ export default function AboutSection() {
             <div className="rounded-xl border border-[#EAEAEA] shadow-sm overflow-hidden">
               <div className="relative h-64">
                 <img
-                  src="/professional-nurse-practitioner-headshot-in-medica.jpg"
+                  src="/hero.jpeg"
                   alt="Bespoke Luxury - Aesthetic Nurse Practitioner"
                   className="object-cover w-full h-full"
                 />

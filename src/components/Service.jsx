@@ -19,36 +19,42 @@ export default function ServicesSection() {
   ];
 
   const treatments = [
-    {
-      image: "/anti-wrinkle-before-after.png",
-      icon: <Sparkles className="h-8 w-8 text-primary" />,
-      title: "Anti-Wrinkle Treatments",
-      description:
-        "Smooth away fine lines and wrinkles with our expertly administered anti-wrinkle injections. Achieve a refreshed, youthful appearance with natural-looking results.",
-      badges: [
-        { icon: <Clock className="h-3 w-3 mr-1" />, text: "30–45 mins" },
-        { icon: <Sparkles className="h-3 w-3 mr-1" />, text: "Results: 2–14 days" },
-      ],
-      list: ["Forehead lines", "Crow’s feet", "Frown lines", "Natural results"],
-    },
-    {
-      image: "/lips-before-after.png",
-      icon: <Syringe className="h-8 w-8 text-primary" />,
-      title: "Dermal Fillers",
-      description:
-        "Restore volume and enhance your natural features with our premium dermal filler treatments. Perfect for lips, cheeks, and facial contouring.",
-      badges: [
-        { icon: <Clock className="h-3 w-3 mr-1" />, text: "45–60 mins" },
-        { icon: <Sparkles className="h-3 w-3 mr-1" />, text: "Results: Immediate" },
-      ],
-      list: [
-        "Lip enhancement",
-        "Cheek augmentation",
-        "Facial contouring",
-        "Volume restoration",
-      ],
-    },
-  ];
+  {
+    image: "/newlogo.png",
+    icon: <Sparkles className="h-8 w-8 text-primary" />,
+    title: "Fox Eye (L Curl)",
+    description:
+      "Lift and elongate your eyes with our precision Fox Eye (L Curl) treatment. Designed to create a lifted, feline-inspired look that enhances and opens up your gaze.",
+    badges: [
+      { icon: <Clock className="h-3 w-3 mr-1" />, text: "60–90 mins" },
+      { icon: <Sparkles className="h-3 w-3 mr-1" />, text: "Results: Instant" },
+    ],
+    list: [
+      "Eye-lifting effect",
+      "Elongated lash curl",
+      "Youthful, snatched appearance",
+      "Long-lasting results",
+    ],
+  },
+  {
+    image: "/newlogo.png",
+    icon: <Syringe className="h-8 w-8 text-primary" />,
+    title: "Russian Volume",
+    description:
+      "Enhance your eyes with our Russian Volume lash extensions — ultra-light, fluffy fans that create a full, glamorous look without weighing down your natural lashes.",
+    badges: [
+      { icon: <Clock className="h-3 w-3 mr-1" />, text: "90–120 mins" },
+      { icon: <Sparkles className="h-3 w-3 mr-1" />, text: "Results: Instant" },
+    ],
+    list: [
+      "Dense, voluminous finish",
+      "Lightweight and comfortable",
+      "Custom fan styling",
+      "Long-lasting retention",
+    ],
+  },
+];
+
 
   const infoCards = [
     {

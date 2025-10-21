@@ -73,7 +73,7 @@ export default function Footer() {
 
         {/* Bottom Copyright */}
         <p className="text-center text-[#444]/80">
-          © 2024 All Aesthetics. All rights reserved. | Nurse Led Medical Clinic
+          © 2024 All Aesthetics. All rights reserved. |Bespoke Luxury Lash Artistry
         </p>
       </div>
     </footer>
