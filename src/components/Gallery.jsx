@@ -46,6 +46,13 @@ const galleryItems = [
     desc: "Cheek enhancement results",
     image: "/n5.jpg",
   },
+   {
+    id: 6,
+    category: "Dermal Fillers",
+    title: "Dermal Fillers",
+    desc: "Cheek enhancement results",
+    image: "/n6.jpg",
+  },
  
 ];
 
