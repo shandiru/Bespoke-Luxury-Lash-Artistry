@@ -50,7 +50,7 @@ export default function HeroSection() {
             </h1>
 
             <p className="text-lg md:text-xl text-[#555555] mb-8 max-w-2xl mx-auto leading-relaxed">
-              Professional aesthetic treatments by Amy, your trusted nurse
+              Professional aesthetic treatments by Bespoke Luxury, your trusted nurse
               practitioner. Specializing in anti-wrinkle treatments and dermal
               fillers with natural-looking results.
             </p>

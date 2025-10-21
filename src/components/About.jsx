@@ -20,7 +20,7 @@ export default function AboutSection() {
           {/* Left Column - Text Content */}
           <div>
             <h2 className="text-3xl lg:text-4xl font-bold mb-6 text-[#222]">
-              Meet Amy
+              Meet Bespoke Luxury
               <span className="block text-primary">Your Aesthetic Nurse</span>
             </h2>
 
@@ -63,7 +63,7 @@ export default function AboutSection() {
               <div className="relative h-64">
                 <img
                   src="/professional-nurse-practitioner-headshot-in-medica.jpg"
-                  alt="Amy - Aesthetic Nurse Practitioner"
+                  alt="Bespoke Luxury - Aesthetic Nurse Practitioner"
                   className="object-cover w-full h-full"
                 />
                 

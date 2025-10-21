@@ -54,7 +54,7 @@ export default function ServicesSection() {
     {
       icon: <Shield className="h-6 w-6 text-primary" />,
       title: "Nurse Led",
-      text: "All treatments performed by qualified nurse practitioner Amy",
+      text: "All treatments performed by qualified nurse practitioner Bespoke Luxury",
     },
     {
       icon: <Clock className="h-6 w-6 text-primary" />,
