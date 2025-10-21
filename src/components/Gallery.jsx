@@ -8,10 +8,7 @@ export default function GallerySection() {
 
   const filters = [
     "All Results",
-    "Lip Enhancement",
-    "Anti-Wrinkle",
-    "Dermal Fillers",
-    "Facial Treatments",
+   
   ];
 const galleryItems = [
   {
@@ -19,43 +16,37 @@ const galleryItems = [
     category: "Lip Enhancement",
     title: "Lip Enhancement",
     desc: "Natural lip filler results",
-    image: "/lips-before-after.png",
+    image: "/n1.jpg",
   },
   {
     id: 2,
     category: "Anti-Wrinkle",
     title: "Anti-Wrinkle Treatment",
     desc: "Forehead line reduction",
-    image: "/anti-wrinkle-before-after.png",
+    image: "/n2.jpg",
   },
   {
     id: 3,
     category: "Facial Treatments",
     title: "Facial Rejuvenation",
     desc: "Complete facial treatment",
-    image: "/facial-treatment.png",
+    image: "/n3.jpg",
   },
   {
     id: 4,
     category: "Treatment Session",
     title: "Treatment Session",
     desc: "Professional care in action",
-    image: "/treatment-session.png",
+    image: "/n4.jpg",
   },
   {
     id: 5,
     category: "Dermal Fillers",
     title: "Dermal Fillers",
     desc: "Cheek enhancement results",
-    image: "/dermal-fillers.png",
+    image: "/n5.jpg",
   },
-  {
-    id: 6,
-    category: "Facial Treatments",
-    title: "Mature Skin Treatment",
-    desc: "Age-defying results",
-    image: "/mature-skin-treatment.png",
-  },
+ 
 ];
 
   const filtered =
@@ -78,21 +69,7 @@ const galleryItems = [
         </div>
 
         {/* Filter Buttons */}
-        <div className="flex flex-wrap justify-center gap-2 mb-12">
-          {filters.map((f) => (
-            <button
-              key={f}
-              onClick={() => setActiveFilter(f)}
-              className={`px-4 py-1.5 rounded-md text-sm font-medium border transition-all ${
-                activeFilter === f
-                  ? "bg-primary text-white shadow-sm"
-                  : "bg-white text-[#444] border-[#EAEAEA] bg-secondary-hover"
-              }`}
-            >
-              {f}
-            </button>
-          ))}
-        </div>
+        
 
         {/* Gallery Grid */}
         {filtered.length > 0 ? (
@@ -121,12 +98,7 @@ const galleryItems = [
                   </span>
                 </div>
 
-                <div className="p-4">
-                  <h3 className="font-semibold text-[#222] text-base mb-1">
-                    {item.title}
-                  </h3>
-                  <p className="text-sm text-[#666]">{item.desc}</p>
-                </div>
+                
               </div>
             ))}
           </div>
