@@ -24,10 +24,9 @@ export default function Footer() {
             </h4>
             <ul className="space-y-2 text-[#444]/80">
               {[
-                "Anti-Wrinkle Treatments",
-                "Dermal Fillers",
-                "Lip Enhancement",
-                "Facial Contouring",
+                "Fox Eye (L Curl)",
+                "Russian Volume",
+               
               ].map((service, i) => (
                 <li key={i}>
                   <a
