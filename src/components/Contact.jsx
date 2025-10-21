@@ -117,10 +117,10 @@ export default function ContactSection() {
                 </div>
                 <div>
                   <h3 className="font-semibold text-[#333]">
-                    Why Choose All Aesthetics?
+                    Why Choose us?
                   </h3>
                   <span className="inline-block text-xs bg-primary text-white rounded-md px-2 py-0.5 mt-1">
-                    Sheffield’s Trusted Clinic
+                     Trusted Clinic
                   </span>
                 </div>
               </div>
@@ -158,12 +158,7 @@ export default function ContactSection() {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
-                <div className="absolute bottom-4 left-4 text-white">
-                  <p className="font-semibold">Our Sheffield Clinic</p>
-                  <p className="text-sm opacity-90">
-                    Professional, comfortable environment
-                  </p>
-                </div>
+                
               </div>
             </div>
           </div>
